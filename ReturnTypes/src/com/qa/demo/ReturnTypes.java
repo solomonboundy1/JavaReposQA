@@ -9,23 +9,23 @@ public class ReturnTypes {
 	
 	// All this method does is return 36
 	// returnInt() = 36
-	public static int returnInt() {
+	public int returnInt() {
 		return 36;
 	}
 	// How to create a method that returns a String
-	public static String returnString() {
+	public String returnString() {
 		return "Hey, this is being returned";
 	}
-	public static boolean returnBool() {
+	public boolean returnBool() {
 		return true;
 	}
-	public static char returnChar() {
+	public char returnChar() {
 		return 'a';
 	}
-	public static float returnFloat() {
+	public float returnFloat() {
 		return 0.212345f;
 	}
-	public static Object returnNothing() {
+	public Object returnNothing() {
 		return null;
 	}
 }
