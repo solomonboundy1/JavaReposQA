@@ -1,6 +1,7 @@
 package com.qa.dao;
 
 import java.sql.Connection;
+
 import java.sql.SQLException;
 import java.sql.Statement;
 
@@ -16,11 +17,11 @@ public class MovieDAO {
 	Statement statement;
 	Connection connection;
 	
-	public void addMovie() {
+	public void addMovie(Movie movie) {
 		try {
 			connection = jdbc.connect();
 			statement = connection.createStatement();
-			String query = "INSERT INTO movies (title, runTime, rating, genre) VALUES (\"Resident Evil 4\", 105, \"R\", \"Action Horror\")";
+			String query = "INSERT INTO movies (title, runTime, rating, genre) VALUES ('" + movie.getTitle() + "', " + movie.getRunTime() + ", '" + movie.getRating() + "', '" + movie.getGenre() + "')";
 			statement.executeUpdate(query);
 			System.out.println("add movie");
 		} catch (SQLException e) {
