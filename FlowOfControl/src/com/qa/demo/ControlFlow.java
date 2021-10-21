@@ -4,18 +4,18 @@ package com.qa.demo;
 
 public class ControlFlow {
 	
-	public static void method1() {
-		System.out.println("I'm the first method");
+	public static void method1(String string) {
+		System.out.println(string);
 		return;
 	}
 	
-	public static void method2() {
-		System.out.println("I'm the second method");
+	public static void method2(int num) {
+		System.out.println(num);
 		return;
 	}
 	
-	public static void method3() {
-		System.out.println("I'm the third method");
+	public static void method3(boolean bool) {
+		System.out.println(bool);
 		return;
 	}
 

@@ -2,19 +2,15 @@ package com.qa.demo;
 
 public class Runner {
 	public static void main(String[] args) {
-		//boo();
-		//helloWorld();
+		boo();
+		helloWorld();
 		// I'm accessing the class (ReturnTypes).method
-		//System.out.println(ReturnTypes.returnInt());
-//		System.out.println(ReturnTypes.returnString());
-//		System.out.println(ReturnTypes.returnBool());
-//		System.out.println(ReturnTypes.returnChar());
-//		System.out.println(ReturnTypes.returnFloat());
-//		System.out.println(ReturnTypes.returnNothing());
-		
-		ReturnTypes NewReturnTypes = new ReturnTypes();
-		
-		System.out.println(NewReturnTypes.returnFloat());
+		System.out.println(ReturnTypes.returnInt());
+		System.out.println(ReturnTypes.returnString());
+		System.out.println(ReturnTypes.returnBool());
+		System.out.println(ReturnTypes.returnChar());
+		System.out.println(ReturnTypes.returnFloat());
+		System.out.println(ReturnTypes.returnNothing());
 	}
 
 	// Creating a method that prints out hello world

@@ -8,9 +8,15 @@ public class Runner {
 	
 	public static void main(String[] args) {
 		
+		DiceRoller rollDice = new DiceRoller();
+		
+		ControlFlow newInt = new ControlFlow();
+		
+		newInt.method2(27);
+		
 		//ControlFlow.method1();
 		//System.out.println(Stack.firstLayer());
-		System.out.println(DiceRoller.totalTotal());
+		System.out.println(rollDice.totalTotal());
 	}
 
 }

@@ -39,6 +39,6 @@ public class Scope {
 	}
 	public static void printPassword() {
 		//impossible
-		System.out.println(password);
+		//System.out.println(password);
 	}
 }
